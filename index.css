@@ -1,0 +1,237 @@
+html, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  height: 100%;
+  width:70%;
+  margin: auto;
+  background-image: url(https://i.imgur.com/gRVQAzN.jpg);
+  background-position: center top;
+}
+
+fieldset {
+    border: 0;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+label {
+  color: white;
+  display: block;
+  line-height: 60px;
+  background-color: red;
+  background: rgba(265, 0, 0, 0.5);
+}
+
+label:hover {
+  background: rgba(0, 365, 0, 0.5);
+}
+
+input[type="radio"]{
+  margin: 0;
+  /*visibility: hidden;*/
+}
+
+.border {
+  border: 1px dashed white;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.pop-up {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.question {
+  display: block;
+}
+
+.question > p {
+  /*text-align: center;*/
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+.btn-wrap {
+  text-align: center;
+}
+
+.half-black {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.start {
+  display: block;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.white {
+  color: white;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+   border-top: 1px solid #96d1f8;
+   background: #9c3e3e;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c3e3e), to(#9c3e3e));
+   background: -webkit-linear-gradient(top, #9c3e3e, #9c3e3e);
+   background: -moz-linear-gradient(top, #9c3e3e, #9c3e3e);
+   background: -ms-linear-gradient(top, #9c3e3e, #9c3e3e);
+   background: -o-linear-gradient(top, #9c3e3e, #9c3e3e);
+   padding: 10.5px 21px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   
+.button:hover {
+   border-top-color: #6b0000;
+   background: #6b0000;
+   color: #ffffff;
+   }
+   
+.button:active {
+   border-top-color: #960000;
+   background: #960000;
+   }
+
+ol {
+  text-align: center;
+}
+
+/*elements for title page*/
+header {
+  display: block;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: auto;
+  margin: auto;
+}
+
+.small {
+  height: 150px;
+}
+
+.trackScore ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.trackScore li {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 20px;
+  padding: 10px;
+  color: white;
+}
+
+ul > li {
+  float: right;
+  margin-right: 5px;
+}
+
+ul > li:first-child {
+  float: left;
+  margin-left: 5px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@media screen and (min-width : 320px) {
+  body {
+    width: 100%;
+    margin: auto;
+    /*border: 2px solid black;*/
+  }
+  
+  img {
+    height: 300px;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  
+  .start h4 {
+    text-align: center;
+    color: white;
+  }
+}
+
+.trackScore {
+  border-radius: 0;
+}
+
+@media screen and (min-width : 768px) {
+  body {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+  }
+  
+  .question {
+    /*border: 2px dashed white;*/
+  }
+  
+  img {
+    height: 400px;
+  }
+  
+  .corners {
+  border-radius: 5px;
+}
+
+  .corners2 {
+  border-radius: 3px;
+}
+ 
+  .pop-up {
+} 
+  
+}
+
+@media screen and (max-width : 768px) {
+  
+  .pop-up {
+    color: red;
+    font-size: 24px;
+  }
+}
